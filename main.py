@@ -1,7 +1,4 @@
 from mlProject import logger
-
-logger.info(">>>>> welcome to my project <<<<<") 
-'''
 from mlProject.pipeline.stage_01_data_ingestion import DataIngestionTrainingPipeline
 from mlProject.pipeline.stage_02_data_validation import DataValidationTrainingPipeline
 from mlProject.pipeline.stage_03_data_transformation import DataTransformationTrainingPipeline
@@ -69,7 +66,7 @@ except Exception as e:
         logger.exception(e)
         raise e
 
-'''
+
 
 
 
